@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Botón que abre la búsqueda de una app en Google Play (Buscador experto) -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GCButtonSecondary"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="8dp" />

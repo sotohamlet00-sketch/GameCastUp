@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_btn_customize">Personalizar colores, imágenes y sonidos</string>
+    <string name="cust_title">Personalización</string>
+    <string name="cust_colors_title">Colores</string>
+    <string name="cust_colors_note">El color elegido tiñe el Lobby, el mando flotante, los textos y los brillos. Si subes una imagen para un botón, su color dominante pasa a ser el acento. El icono del launcher no puede cambiar sin reiniciar.</string>
+    <string name="cust_source_default">Colores: Índigo (por defecto)</string>
+    <string name="cust_source_preset">Colores: %1$s</string>
+    <string name="cust_source_image">Colores: sacados de una imagen</string>
+    <string name="cust_reset">Volver a los colores por defecto</string>
+    <string name="cust_buttons_title">Botones del mando</string>
+    <string name="cust_buttons_note">Sube una imagen para el fondo de cada botón y un sonido (.mp3 o .ogg corto, hasta 1 MB) que suene al pulsarlo.</string>
+    <string name="cust_btn_image">Imagen</string>
+    <string name="cust_btn_sound">Sonido</string>
+    <string name="cust_btn_clear">Quitar</string>
+    <string name="cust_sound_set">Sonido propio asignado</string>
+    <string name="cust_sound_none">Sin sonido</string>
+    <string name="cust_sound_bad">El archivo no es un .mp3 u .ogg válido.</string>
+    <string name="cust_sound_big">El sonido es demasiado grande: usa un clip corto de menos de 1 MB.</string>
+    <string name="cust_image_bad">No se pudo leer la imagen.</string>
+    <string name="cust_palette_applied">Color dominante aplicado a toda la app.</string>
+    <string name="preset_indigo">Índigo</string>
+    <string name="preset_mint">Menta</string>
+    <string name="preset_coral">Coral</string>
+    <string name="preset_violet">Violeta</string>
+    <string name="preset_amber">Ámbar</string>
+    <string name="preset_sky">Cielo</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Tema oscuro único (Inicio y Ajustes). Acentos: gc_primary (índigo->violeta), gc_secondary (menta), gc_danger (coral) -->
+    <color name="gc_bg">#FF0D1017</color>
+    <color name="gc_surface">#FF171C27</color>
+    <color name="gc_surface_variant">#FF222A39</color>
+    <color name="gc_outline">#FF2E384B</color>
+    <color name="gc_text">#FFEEF1F8</color>
+    <color name="gc_text_muted">#FF98A2B8</color>
+    <color name="gc_primary">#FF6C7CFF</color>
+    <color name="gc_primary_end">#FF9A6BFF</color>
+    <color name="gc_secondary">#FF2DD4BF</color>
+    <color name="gc_danger">#FFFF5C7A</color>
+    <color name="gc_danger_end">#FFFF8A66</color>
+
+    <!-- Mando: siempre oscuro, misma familia de acentos -->
+    <color name="pad_bg_top">#FF141824</color>
+    <color name="pad_bg_bottom">#FF0A0C12</color>
+    <color name="pad_key_top">#99414B66</color>
+    <color name="pad_key_bottom">#80232B3F</color>
+    <color name="pad_key_stroke">#47FFFFFF</color>
+    <color name="pad_text">#FFEEF1F8</color>
+    <color name="pad_text_muted">#FF98A2B8</color>
+    <color name="pad_accent_light">#FF9AA7FF</color>
+    <color name="pad_accent">#FF6C7CFF</color>
+    <color name="pad_accent_dark">#FF4A52DE</color>
+    <color name="pad_accent2">#FF2DD4BF</color>
+    <color name="pad_danger">#FFFF5C7A</color>
+    <color name="joystick_base_inner">#FF1C2230</color>
+    <color name="joystick_base_outer">#FF0F131C</color>
+    <!-- Cristal del mando -->
+    <color name="pad_glass_top">#A61B2233</color>
+    <color name="pad_glass_bottom">#7310141E</color>
+    <color name="pad_glass_stroke">#38FFFFFF</color>
+    <color name="pad_pressed_top">#E69AA7FF</color>
+    <color name="pad_pressed_bottom">#E64A52DE</color>
+    <!-- Vidrio (tarjetas translúcidas) y aurora -->
+    <color name="gc_glass_top">#2EFFFFFF</color>
+    <color name="gc_glass_bottom">#14FFFFFF</color>
+    <color name="gc_glass_stroke">#33FFFFFF</color>
+    <color name="gc_aurora_violet">#4D8A5CFF</color>
+    <color name="gc_aurora_teal">#3D2DD4BF</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="con_mapping">Coloca los controles en el teléfono…</string>
+    <string name="mapper_no_session">No hay una sesión del Modo Consola esperando el mapeo.</string>
+    <string name="mapper_layout_title">Plantilla de mando</string>
+    <string name="layout_xbox">Xbox</string>
+    <string name="layout_psp">PSP</string>
+    <string name="layout_ds">Nintendo DS</string>
+    <string name="mapper_btn_auto">Detección automática</string>
+    <string name="mapper_btn_cancel">Cancelar</string>
+    <string name="mapper_btn_save_play">Guardar y Jugar</string>
+    <string name="mapper_auto_working">Buscando rótulos en la pantalla…</string>
+    <string name="mapper_auto_found">Detectados %d controles. Ajusta lo que falte a mano.</string>
+    <string name="mapper_auto_none">No se detectó ningún rótulo. Colócalos a mano.</string>
+    <string name="mapper_auto_error">No se pudo analizar la pantalla.</string>
+    <string name="mapper_cancel_title">¿Cancelar el mapeo?</string>
+    <string name="mapper_cancel_msg">Se cerrará la app y volverás al Lobby.</string>
+    <string name="mapper_cancel_yes">Sí, volver al Lobby</string>
+    <string name="mapper_cancel_no">Seguir mapeando</string>
+    <!-- Lobby -->
+    <string name="con_lobby">Lobby en la TV. Navega con el mando del teléfono.</string>
+    <string name="lobby_cat_games">Juegos</string>
+    <string name="lobby_cat_entertainment">Entretenimiento</string>
+    <string name="lobby_cat_apps">Aplicaciones</string>
+    <string name="lobby_cat_settings">Ajustes</string>
+    <string name="lobby_item_exit">Salir del Modo Consola</string>
+    <string name="lobby_item_exit_sub">Cierra el Lobby y la pantalla virtual</string>
+    <string name="lobby_hint">A Aceptar     B Atrás     Cruceta: moverte     L1 / R1: saltar de 5 en 5</string>
+    <string name="lobby_err_launch">No se pudo abrir el Lobby en la pantalla virtual.</string>
+    <string name="pad_hold_to_exit">Mantén ✕ pulsado para salir del Modo Consola.</string>
+</resources>

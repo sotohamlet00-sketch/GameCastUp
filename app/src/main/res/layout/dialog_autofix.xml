@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/bg_card" android:gravity="center_horizontal"
+    android:orientation="vertical" android:padding="28dp">
+
+    <FrameLayout android:layout_width="120dp" android:layout_height="120dp">
+        <View
+            android:id="@+id/afRing"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="@drawable/bg_autofix_orb" />
+        <View
+            android:id="@+id/afOrb"
+            android:layout_width="84dp" android:layout_height="84dp"
+            android:layout_gravity="center" android:background="@drawable/bg_autofix_orb" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:gravity="center"
+        android:text="@string/autofix_title"
+        android:textAppearance="@style/TextAppearance.GC.Title" android:tag="gc_title" />
+    <TextView
+        android:id="@+id/afStep"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:gravity="center"
+        android:text="@string/autofix_step1"
+        android:textAppearance="@style/TextAppearance.GC.Caption" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:indeterminate="true" />
+</LinearLayout>

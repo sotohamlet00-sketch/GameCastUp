@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Conectar con la TV -->
+    <string name="tvc_title">Conectar con la TV</string>
+    <string name="tvc_searching">Buscando TVs en tu red Wi-Fi…</string>
+    <string name="tvc_found">%1$d TV(s) encontrada(s)</string>
+    <string name="tvc_sec_miracast">Miracast / Wi-Fi Direct</string>
+    <string name="tvc_sec_cast">Google Cast / Chromecast</string>
+    <string name="tvc_sec_dlna">DLNA / UPnP</string>
+    <string name="tvc_miracast_hint">Android no deja que una app busque TVs Miracast. Abre el panel Cast del sistema, conecta tu TV y vuelve aquí.</string>
+    <string name="tvc_cast_unavailable">Google Cast no está disponible: faltan los servicios de Google Play.</string>
+    <string name="tvc_none">Todavía no hay TVs en esta lista.</string>
+    <string name="tvc_connected">Conectada</string>
+    <string name="tvc_not_connected">No conectada: toca para conectar</string>
+    <string name="tvc_btn_cast_panel">Abrir el panel Cast del sistema</string>
+    <string name="tvc_btn_expert">¿No aparece tu TV? Buscador experto</string>
+    <string name="tvc_btn_expert_short">Buscador experto</string>
+    <string name="tvc_stream_note">Con Cast y DLNA la pantalla llega a la TV con 6–10 segundos de retraso: sirven para ver contenido o jugar a juegos lentos. Para jugar en directo usa Miracast.</string>
+    <string name="tvc_stream_no_network">El teléfono no está en una red Wi-Fi local. Conéctalo a la misma red que la TV.</string>
+    <string name="tvc_picked">TV elegida: %1$s</string>
+
+    <!-- Envío del vídeo -->
+    <string name="tvp_waiting">Preparando el vídeo para la TV…</string>
+    <string name="tvp_no_video">El teléfono no generó vídeo a tiempo.</string>
+    <string name="tvp_playing">Reproduciendo en %1$s (con unos segundos de retraso)</string>
+    <string name="status_streaming_net">Enviando a %1$s por la red Wi-Fi</string>
+    <string name="tv_kind_miracast">Miracast</string>
+    <string name="tv_kind_cast">Google Cast</string>
+    <string name="tv_kind_dlna">DLNA</string>
+    <string name="tv_target_kind">TV: %1$s (%2$s)</string>
+
+    <!-- Buscador experto -->
+    <string name="expert_title">Buscador experto</string>
+    <string name="expert_intro">Elige la marca de tu TV y, si quieres, escribe el modelo (por ejemplo AU8000). Te diré qué método probar primero.</string>
+    <string name="expert_brand">Marca</string>
+    <string name="expert_model_hint">Modelo (opcional)</string>
+    <string name="expert_btn_search">Ver recomendación</string>
+    <string name="expert_protocols">Prueba en este orden: %1$s</string>
+    <string name="expert_model_notes">Sobre tu modelo</string>
+    <string name="expert_steps">Pasos</string>
+    <string name="expert_open_store">Buscar «%1$s» en Google Play</string>
+    <string name="expert_btn_back">Volver a buscar TVs</string>
+    <string name="expert_disclaimer">Orientativo: la compatibilidad depende del modelo y de la versión de software de la TV.</string>
+    <string name="expert_load_error">No se pudo leer la base de compatibilidad.</string>
+    <string name="proto_cast">Google Cast</string>
+    <string name="proto_miracast">Miracast (duplicar pantalla)</string>
+    <string name="proto_dlna">DLNA</string>
+    <string name="con_fallback_expert">Buscador experto</string>
+</resources>

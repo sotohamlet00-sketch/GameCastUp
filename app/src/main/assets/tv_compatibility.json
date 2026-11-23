@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "brands": [
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "protocols": [
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Las Samsung no traen Chromecast integrado. Lo más fiable es Smart View (Screen Mirroring); para vídeo continuo también suele servir DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "En la TV abre Fuente y elige Duplicación de pantalla (Screen Mirroring), o entra en Ajustes > General > Gestor de dispositivos externos.",
+        "En el teléfono abre el panel Cast / Smart View de los ajustes rápidos y elige la TV.",
+        "Acepta el aviso que aparece en la TV la primera vez.",
+        "Vuelve a GameCast: la TV aparecerá en Miracast."
+      ],
+      "apps": [
+        {
+          "name": "Samsung SmartThings",
+          "query": "SmartThings"
+        },
+        {
+          "name": "Samsung Smart View",
+          "query": "Smart View Samsung"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "AU\\d{3,4}",
+          "note": "Serie Crystal UHD reciente: Screen Mirroring (Smart View) y DLNA funcionan en la mayoría de los casos. Sin Chromecast integrado."
+        },
+        {
+          "pattern": "^(QN|QE)",
+          "note": "Serie QLED: igual que las Crystal UHD (Smart View y DLNA)."
+        }
+      ]
+    },
+    {
+      "id": "lg",
+      "name": "LG",
+      "protocols": [
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Las LG con webOS usan Compartir pantalla (Screen Share). No traen Chromecast integrado; DLNA suele estar disponible.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "En la TV abre Inicio > Ajustes > Conexión > Compartir pantalla (Screen Share).",
+        "En el teléfono abre el panel Cast y elige la TV.",
+        "Si pide un código, escríbelo en el teléfono.",
+        "Para ver contenido suelto, la app LG ThinQ ofrece funciones adicionales."
+      ],
+      "apps": [
+        {
+          "name": "LG ThinQ",
+          "query": "LG ThinQ"
+        },
+        {
+          "name": "LG TV Plus",
+          "query": "LG TV Plus"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^(OLED|\\d{2}(UP|UQ|UR|NANO|QNED))",
+          "note": "webOS reciente: Screen Share (Miracast) y DLNA; muchos modelos admiten además AirPlay 2."
+        }
+      ]
+    },
+    {
+      "id": "sony",
+      "name": "Sony",
+      "protocols": [
+        "cast",
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Los Sony con Google TV o Android TV traen Chromecast integrado: es la vía más estable. Los más antiguos usan Duplicación de pantalla o DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Si tu Sony tiene Google TV o Android TV, no hace falta configurar nada: aparecerá en Google Cast.",
+        "En modelos antiguos abre Fuente > Duplicación de pantalla y usa el panel Cast del teléfono.",
+        "Para DLNA, activa el Servidor/Reproductor de medios en los ajustes de red de la TV."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^(KD|XR|XBR)",
+          "note": "Suele ser Google TV o Android TV: usa Google Cast."
+        },
+        {
+          "pattern": "^KDL",
+          "note": "Modelo antiguo sin Android TV: prueba Duplicación de pantalla (Miracast) o DLNA."
+        }
+      ]
+    },
+    {
+      "id": "tcl",
+      "name": "TCL",
+      "protocols": [
+        "cast",
+        "miracast"
+      ],
+      "recommendation": "Depende del sistema de la TV: con Google TV o Android TV usa Google Cast; con Roku TV usa Screen mirroring (Miracast). Míralo en Ajustes > Acerca de.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Comprueba el sistema: Ajustes > Acerca de o Información del sistema.",
+        "Google TV / Android TV: elige la TV en Google Cast.",
+        "Roku TV: activa Screen mirroring en Ajustes > Sistema y usa el panel Cast del teléfono."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Roku (app oficial)",
+          "query": "Roku app"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^\\d{2}[SPC]\\d{3}",
+          "note": "Serie S, P o C: la mayoría usa Google TV o Android TV (Cast); algunas S son Roku TV."
+        }
+      ]
+    },
+    {
+      "id": "hisense",
+      "name": "Hisense",
+      "protocols": [
+        "cast",
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Según el modelo trae VIDAA, Google TV o Roku TV. Google TV: Cast. VIDAA y Roku: Miracast (Compartir pantalla) y DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Mira el sistema en Ajustes > Acerca de.",
+        "Google TV: elige la TV en Google Cast.",
+        "VIDAA: busca Compartir pantalla / Miracast en el menú de fuentes y usa el panel Cast del teléfono.",
+        "Para DLNA, activa el uso compartido de medios en los ajustes de red."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Roku (app oficial)",
+          "query": "Roku app"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^\\d{2}A\\d{2}",
+          "note": "Según la variante puede traer VIDAA, Google TV o Roku TV: confirma el sistema en Ajustes."
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "protocols": [
+        "cast",
+        "miracast"
+      ],
+      "recommendation": "Las Xiaomi TV con Google TV o Android TV traen Chromecast integrado: usa Google Cast. Algunos modelos añaden Miracast.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Elige la TV en Google Cast; no hace falta configurar nada.",
+        "Si no aparece, reinicia la TV y revisa que no esté en modo ahorro de red.",
+        "Alternativa: Duplicación de pantalla desde el panel Cast del teléfono, si tu modelo la ofrece."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Xiaomi Home",
+          "query": "Xiaomi Home"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^(L|Q|A)\\d{2}",
+          "note": "Serie Mi TV / TV A: normalmente Google TV o Android TV con Cast integrado."
+        }
+      ]
+    },
+    {
+      "id": "philips",
+      "name": "Philips",
+      "protocols": [
+        "cast",
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Los Philips con Google TV o Android TV traen Cast. Los de Saphi o Titan OS usan Miracast (Compartir pantalla) y DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Android TV / Google TV: aparece en Google Cast.",
+        "Otros sistemas: abre Fuentes > Duplicación de pantalla (Screen Sharing) y usa el panel Cast del teléfono.",
+        "Para DLNA activa el uso compartido de medios en los ajustes de red."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Philips TV Remote",
+          "query": "Philips TV Remote"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^\\d{2}PUS",
+          "note": "Serie 4K con Android TV o Google TV: usa Google Cast."
+        }
+      ]
+    },
+    {
+      "id": "panasonic",
+      "name": "Panasonic",
+      "protocols": [
+        "cast",
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Android TV: Google Cast. Con My Home Screen: Duplicación de pantalla (Miracast) y DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Android TV: elige la TV en Google Cast.",
+        "My Home Screen: abre Fuentes > Duplicación de pantalla y usa el panel Cast del teléfono.",
+        "Para DLNA activa el servidor/reproductor de medios en la red."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Panasonic TV Remote",
+          "query": "Panasonic TV Remote 2"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "roku",
+      "name": "Roku",
+      "protocols": [
+        "miracast"
+      ],
+      "recommendation": "Roku admite Screen mirroring (Miracast) desde Android. Para vídeos concretos, la app oficial de Roku puede enviar contenido.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "En la Roku abre Ajustes > Sistema > Duplicación de pantalla (Screen mirroring).",
+        "Elige el modo Preguntar o Siempre permitir.",
+        "En el teléfono abre el panel Cast y elige la Roku; acepta el aviso en la TV."
+      ],
+      "apps": [
+        {
+          "name": "Roku (app oficial)",
+          "query": "Roku app"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "vizio",
+      "name": "VIZIO",
+      "protocols": [
+        "cast"
+      ],
+      "recommendation": "Los VIZIO SmartCast traen Chromecast integrado: usa Google Cast.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Enciende la TV y comprueba que esté configurada en la app VIZIO Mobile o Google Home.",
+        "Elige la TV en Google Cast; no hace falta nada más."
+      ],
+      "apps": [
+        {
+          "name": "VIZIO Mobile",
+          "query": "VIZIO Mobile"
+        },
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        }
+      ],
+      "models": [
+        {
+          "pattern": "^(V|M|P|D)\\d{2,3}",
+          "note": "Línea SmartCast: normalmente con Google Cast integrado."
+        }
+      ]
+    },
+    {
+      "id": "sharp",
+      "name": "Sharp",
+      "protocols": [
+        "cast",
+        "miracast"
+      ],
+      "recommendation": "Los Sharp Aquos con Android TV o Google TV usan Google Cast. Los que traen Roku TV o Fire TV siguen las pautas de esas marcas.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Mira el sistema en Ajustes > Acerca de.",
+        "Android TV / Google TV: Google Cast.",
+        "Roku TV o Fire TV: activa la duplicación de pantalla y usa el panel Cast del teléfono."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Roku (app oficial)",
+          "query": "Roku app"
+        },
+        {
+          "name": "Amazon Fire TV",
+          "query": "Amazon Fire TV"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "toshiba",
+      "name": "Toshiba",
+      "protocols": [
+        "miracast",
+        "cast"
+      ],
+      "recommendation": "Según el modelo trae Fire TV, Android TV o Roku TV: mira el sistema en Ajustes y sigue la guía de ese sistema (Fire TV: Duplicación de pantalla; Google TV: Cast).",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Comprueba el sistema en Ajustes > Acerca de.",
+        "Fire TV: activa Duplicación de pantalla.",
+        "Android TV / Google TV: elige la TV en Google Cast."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        },
+        {
+          "name": "Amazon Fire TV",
+          "query": "Amazon Fire TV"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "firetv",
+      "name": "Amazon Fire TV",
+      "protocols": [
+        "miracast"
+      ],
+      "recommendation": "Fire TV admite Duplicación de pantalla (Miracast). No trae Chromecast integrado.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Mantén pulsado el botón Inicio del mando de la Fire TV y elige Duplicación, o entra en Ajustes > Pantalla y sonidos > Habilitar duplicación de pantalla.",
+        "En el teléfono abre el panel Cast y elige la Fire TV.",
+        "Si no aparece, reinicia la Fire TV desde Ajustes > Mi Fire TV."
+      ],
+      "apps": [
+        {
+          "name": "Amazon Fire TV",
+          "query": "Amazon Fire TV"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "chromecast",
+      "name": "Chromecast / Google TV",
+      "protocols": [
+        "cast"
+      ],
+      "recommendation": "Compatibilidad completa con Google Cast. No usa Miracast ni DLNA.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Configura el Chromecast o la Google TV con la app Google Home.",
+        "Elige la TV en Google Cast dentro de GameCast.",
+        "Si no aparece, reinicia el Chromecast y comprueba que el router no aísle los dispositivos (aislamiento AP)."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "other",
+      "name": "Otra marca / no lo sé",
+      "protocols": [
+        "cast",
+        "miracast",
+        "dlna"
+      ],
+      "recommendation": "Prueba los tres métodos en este orden: Google Cast, Miracast y DLNA. Busca en el manual o en los ajustes de la TV estas palabras: Chromecast integrado, Duplicación o Compartir pantalla, Screen Mirroring, Miracast, DLNA, Media Renderer.",
+      "steps": [
+        "Conecta la TV y el teléfono a la misma red Wi-Fi (si están en redes distintas, ninguna vía funciona).",
+        "Abre Conectar con la TV y espera unos segundos: aparecerán las que respondan a Cast o DLNA.",
+        "Si no aparece nada, abre el panel Cast del sistema y mira si la TV sale ahí (Miracast).",
+        "Si tu TV es de una marca conocida, vuelve atrás y elígela para ver pasos más precisos."
+      ],
+      "apps": [
+        {
+          "name": "Google Home",
+          "query": "Google Home"
+        }
+      ],
+      "models": []
+    }
+  ]
+}

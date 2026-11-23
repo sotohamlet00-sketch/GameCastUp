@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Auto-Fix -->
+    <string name="autofix_title">Optimizando GameCast para tu dispositivo…</string>
+    <string name="autofix_step1">Concediendo el permiso de superposición…</string>
+    <string name="autofix_step2">Quitando límites de segundo plano y batería…</string>
+    <string name="autofix_step3">Comprobando que todo quedó bien…</string>
+    <string name="autofix_btn_test">Probar Auto-Fix</string>
+    <string name="autofix_result_ok">Auto-Fix correcto</string>
+    <string name="autofix_result_partial">Auto-Fix aplicado, pero el permiso sigue sin verse</string>
+    <string name="autofix_result_fail">Auto-Fix falló</string>
+    <string name="autofix_overlay_yes">Superponer sobre otras apps: concedido.</string>
+    <string name="autofix_overlay_no">Superponer sobre otras apps: NO concedido.</string>
+
+    <!-- Perfiles de control -->
+    <string name="profile_title">Perfil de control</string>
+    <string name="profile_start">Iniciar</string>
+    <string name="profile_auto">Automático</string>
+    <string name="profile_auto_desc">Usa el mapa guardado de cada juego; si no hay, ML Kit intenta detectar los botones.</string>
+    <string name="profile_manual">Manual táctil</string>
+    <string name="profile_manual_desc">Los botones del mando, colocados por ti en el mapeador.</string>
+    <string name="profile_app">Modo App</string>
+    <string name="profile_app_desc">Trackpad flotante y botones Atrás / Inicio para apps como Instagram o TikTok. Sin mapeo.</string>
+    <string name="pad_app_back">Atrás</string>
+    <string name="pad_app_track">Trackpad: toca y arrastra</string>
+
+    <!-- Botones físicos -->
+    <string name="hw_key_volume_up">Volumen +</string>
+    <string name="hw_key_volume_down">Volumen −</string>
+    <string name="hw_key_power">Encendido</string>
+    <string name="hw_act_none">Sin acción</string>
+    <string name="hw_act_close_app">Cerrar la app y volver al Lobby</string>
+    <string name="hw_act_back">Atrás (dentro de la app)</string>
+    <string name="hw_act_exit">Salir del Modo Consola</string>
+    <string name="hw_act_button">Botón %1$s</string>
+    <string name="hw_act_dpad">Cruceta %1$s</string>
+    <string name="hw_settings_title">Botones físicos</string>
+    <string name="hw_settings_note">Necesitan Shizuku activo. GameCast solo observa las teclas: el volumen sigue cambiando y Encendido sigue apagando la pantalla (se vuelve a encender sola). Con el mando HID en pantalla, Volumen sí se consume.</string>
+    <string name="hw_btn_global">Ajustes de todos los juegos</string>
+    <string name="hw_btn_game">Ajustes de un juego concreto</string>
+    <string name="hw_dialog_global_title">Botones físicos (todos los juegos)</string>
+    <string name="hw_dialog_game_title">Botones físicos en %1$s</string>
+    <string name="hw_use_global">Usar los globales</string>
+    <string name="mapper_btn_hw">Botones físicos</string>
+</resources>
