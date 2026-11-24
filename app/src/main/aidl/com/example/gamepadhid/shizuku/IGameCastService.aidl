@@ -1,5 +1,5 @@
-import com.example.gamepadhid.shizuku.IKeyListener;
 package com.example.gamepadhid.shizuku;
+import com.example.gamepadhid.shizuku.IKeyListener;
 
 import android.view.Surface;
 
